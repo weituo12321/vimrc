@@ -415,5 +415,5 @@ endfunction
 set nu
 
 "####################### added by Victor_Hao############
-autocmd FileType python compiler pylint
-let g:pylint_onwrite = 0
+" press button F3 to paste without messing up indents
+set pastetoggle=<F3>
